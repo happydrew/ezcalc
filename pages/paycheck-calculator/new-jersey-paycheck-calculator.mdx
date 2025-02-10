@@ -1,0 +1,130 @@
+---
+title: NJ Paycheck Calculator - New Jersey Paycheck Calculator
+description: Calculate your New Jersey paycheck based on your taxable earnings and deductions.
+date: 2025-02-09
+---
+
+import { PaycheckCalculator } from '@components/paycheckcalc/PaycheckCalculator';
+
+<h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb- mt-3 text-center">New Jersey Paycheck Calculator</h1>
+
+<div className="mb-3 prose prose-blue max-w-none bg-gray-100 px-4 py-2 rounded-lg">
+    <p className="text-gray-600">
+      Welcome to our **New Jersey Paycheck Calculator**! This tool helps you accurately calculate your after-tax income in New Jersey. Whether you're a full-time or part-time employee, simply input your salary details, and we’ll calculate your after-tax income to help you plan your finances better.
+    </p>
+</div>
+
+<PaycheckCalculator stateTaxType="progressive" stateTaxBracket={[{ payBracket: 20000, rate: 0.014 },{ payBracket: 35000, rate: 0.0175 },{ payBracket: 40000, rate: 0.035 },{ payBracket: 75000, rate: 0.05525 },{ payBracket: 500000, rate: 0.0637 },{ payBracket: 1000000, rate: 0.0897 },{ payBracket: -1, rate: 0.1075 }]}/>
+
+---
+
+## Tool Overview
+
+### **How to Use the New Jersey Paycheck Calculator**
+
+This paycheck calculator helps you calculate your after-tax income for work in New Jersey. Just input your **annual salary** or **hourly wage**, select your **deductions** (such as federal taxes, state taxes, Social Security, etc.), and provide any other relevant personal information (like marital status, exemptions, etc.). The tool will automatically calculate your after-tax income.
+
+### **Why Use This Tool?**
+
+By using our calculator, you can:
+- Accurately calculate your after-tax income without errors.
+- Understand how New Jersey state taxes and deductions impact your income.
+- Quickly familiarize yourself with New Jersey’s specific tax rates and deductions.
+
+---
+
+## Related Tax Information
+
+### **Overview of New Jersey Taxes**
+
+In New Jersey, residents are required to pay both state income tax and local taxes, which can vary depending on your municipality. New Jersey’s state tax system uses a **progressive income tax** with rates ranging from 1.4% to 10.75% based on your income bracket. The state also has a **state disability insurance** (SDI) tax and **local taxes** that may apply depending on where you live.
+
+### **New Jersey State Income Tax Brackets (2025)**
+
+Here are the **2025 New Jersey state income tax brackets** for **single filers** and **married couples filing jointly**:
+
+#### **Single Filers**
+
+| Taxable Income         | Tax Rate     |
+|------------------------|--------------|
+| Up to $20,000          | 1.4%         |
+| $20,001 to $35,000     | 1.75%        |
+| $35,001 to $40,000     | 3.5%         |
+| $40,001 to $75,000     | 5.525%       |
+| $75,001 to $500,000    | 6.37%        |
+| $500,001 to $1,000,000 | 8.97%        |
+| Over $1,000,000        | 10.75%       |
+
+#### **Married Couples Filing Jointly**
+
+| Taxable Income         | Tax Rate     |
+|------------------------|--------------|
+| Up to $20,000          | 1.4%         |
+| $20,001 to $50,000     | 1.75%        |
+| $50,001 to $70,000     | 3.5%         |
+| $70,001 to $150,000    | 5.525%       |
+| $150,001 to $500,000   | 6.37%        |
+| $500,001 to $1,000,000 | 8.97%        |
+| Over $1,000,000        | 10.75%       |
+
+New Jersey has a **progressive tax system**, which means the more you earn, the higher your tax rate. This tax bracket structure ensures that higher earners contribute a larger percentage of their income to state taxes.
+
+### **Tax Calculation Method**
+
+Our paycheck calculator automatically calculates your after-tax income based on the latest federal and state tax rates, as well as other deductions like Social Security and Medicare. Key tax items considered:
+- **Federal Income Tax**: Calculated based on the IRS tax brackets.
+- **State Income Tax**: New Jersey has a **progressive tax system** with varying rates depending on income.
+- **Social Security and Medicare Taxes**: Calculated according to the current federal rates.
+- **New Jersey State Disability Insurance (SDI)**: A state-specific tax that funds disability benefits for workers.
+- **Local Taxes**: Some municipalities in New Jersey impose additional taxes, which can be factored into the calculation.
+
+### **Exemption and Deduction Rules**
+
+New Jersey offers several tax exemptions and credits, including:
+- **Personal Exemption**: New Jersey offers a personal exemption that reduces taxable income.
+- **Tax Credits**: Certain credits, like the Earned Income Tax Credit (EITC) and property tax relief programs, may help lower your overall tax liability.
+- **Disability Benefits**: New Jersey's SDI taxes are specifically used to fund temporary disability benefits for workers.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### **1. How can I adjust the tax calculation to fit my personal situation?**
+
+You can adjust your personal details in the calculator, such as marital status, dependents, exemptions, and specific deductions, to ensure the tax calculation reflects your unique circumstances.
+
+### **2. What taxes are deducted from my paycheck in New Jersey?**
+
+Your paycheck in New Jersey will include deductions for federal income tax, New Jersey state income tax (which is progressive), Social Security, Medicare, and possibly other local taxes, depending on where you live in New Jersey.
+
+### **3. How do I calculate my after-tax income if I have multiple jobs in New Jersey?**
+
+If you have multiple jobs, you’ll need to combine your total income and input the cumulative details into the calculator. The tax calculation will consider your total income and apply the appropriate tax rates.
+
+### **4. What is the New Jersey State Disability Insurance (SDI) tax?**
+
+New Jersey has a State Disability Insurance (SDI) tax that is deducted from your paycheck. This tax helps fund temporary disability benefits for workers in the state. The SDI tax rate is set annually, and it's an important consideration when calculating your after-tax income in New Jersey.
+
+---
+
+## SEO-Optimized Section
+
+### **New Jersey Paycheck Calculator Features**
+
+Our **New Jersey paycheck calculator** is designed to provide accurate results for calculating your **after-tax income** based on New Jersey’s tax rules. By entering simple information like your salary, marital status, and deductions, you can instantly see how much you’ll take home after taxes.
+
+### **Keywords and Related Terms**
+
+For better optimization, we’ve integrated the following important keywords throughout the page:
+- New Jersey paycheck calculator
+- New Jersey state tax rates
+- Progressive income tax calculator for New Jersey
+- New Jersey income tax rates 2025
+
+For more information, check out our related resources on managing your paycheck, optimizing your tax deductions, and understanding New Jersey’s unique tax system.
+
+---
+
+## Conclusion & Call to Action
+
+Start using the **New Jersey Paycheck Calculator** today to accurately calculate your after-tax income. If you have any questions or need assistance, feel free to contact us or explore other resources on our website. **Get started today and take control of your finances!**

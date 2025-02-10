@@ -7,13 +7,33 @@ export default {
       layout: 'raw'
     }
   },
-  "paycheck-calculator":{
+  "paycheck-calculator": {
     type: 'menu',
     title: 'Paycheck Calculator',
-    items:{
-      "pennsylvania-paycheck-calculator":{
+    items: {
+      "pennsylvania-paycheck-calculator": {
         title: 'Pennsylvania Paycheck Calculator',
         href: '/paycheck-calculator/pennsylvania-paycheck-calculator'
+      },
+      "new-jersey-paycheck-calculator": {
+        title: 'New Jersey Paycheck Calculator',
+        href: '/paycheck-calculator/new-jersey-paycheck-calculator'
+      },
+      "illinois-paycheck-calculator": {
+        title: 'Illinois Paycheck Calculator',
+        href: '/paycheck-calculator/illinois-paycheck-calculator'
+      },
+      "maryland-paycheck-calculator": {
+        title: 'Maryland Paycheck Calculator',
+        href: '/paycheck-calculator/maryland-paycheck-calculator'
+      },
+      "michigan-paycheck-calculator": {
+        title: 'Michigan Paycheck Calculator',
+        href: '/paycheck-calculator/michigan-paycheck-calculator'
+      },
+      "washington-paycheck-calculator": {
+        title: 'Washington Paycheck Calculator',
+        href: '/paycheck-calculator/washington-paycheck-calculator'
       }
     }
   },

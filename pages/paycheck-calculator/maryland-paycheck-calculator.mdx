@@ -1,0 +1,120 @@
+---
+title: Maryland Paycheck Calculator
+description: Use our Maryland paycheck calculator to estimate your after-tax income. Learn about Maryland state taxes, local taxes, federal deductions, and how they impact your take-home pay.
+date: 2025-02-09
+---
+
+import { PaycheckCalculator } from '@components/paycheckcalc/PaycheckCalculator';
+
+<h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb- mt-3 text-center">Maryland Paycheck Calculator</h1>
+
+<div className="mb-3 prose prose-blue max-w-none bg-gray-100 px-4 py-2 rounded-lg">
+    <p className="text-gray-600">
+Welcome to our **Maryland Paycheck Calculator**! This tool helps you accurately calculate your after-tax income for work in Maryland. Maryland imposes both **state income tax** and **local taxes**, which can affect how much you take home. Simply input your salary details, and we’ll calculate your take-home pay after all taxes and deductions, including state, federal, and local taxes.
+    </p>
+</div>
+
+<PaycheckCalculator stateTaxType="progressive" stateTaxBracket={[{ payBracket: 1000, rate: 0.02 }, { payBracket: 2000, rate: 0.03 }, { payBracket: 3000, rate: 0.04 }, { payBracket: 100000, rate: 0.0475 }, { payBracket: 125000, rate: 0.05 }, { payBracket: 150000, rate: 0.0525 }, { payBracket: 300000, rate: 0.055 }, { payBracket: Infinity, rate: 0.0575 }]} />
+
+---
+
+## Tool Overview
+
+### **How to Use the Maryland Paycheck Calculator**
+
+This paycheck calculator is designed to help you determine your after-tax income in Maryland. Enter your **annual salary** or **hourly wage**, select your **deductions** (federal income tax, Maryland state tax, local taxes, Social Security, Medicare, etc.), and input your personal details like filing status and exemptions. The tool will automatically calculate your after-tax income based on the information you provide.
+
+### **Why Use This Tool?**
+
+Using this calculator allows you to:
+- Get an accurate estimate of your take-home pay.
+- Understand how **Maryland state taxes** and **local taxes** impact your income.
+- Quickly familiarize yourself with Maryland's tax rates, exemptions, and applicable deductions.
+
+---
+
+## Related Tax Information
+
+### **Overview of Maryland Taxes**
+
+Maryland has a **progressive state income tax system**, with rates ranging from **2% to 5.75%**, depending on your taxable income. Additionally, certain counties and Baltimore City impose local income taxes that can range from **2.25% to 3.2%**. These local taxes, combined with **federal taxes**, **Social Security**, and **Medicare** deductions, all contribute to your total tax burden.
+
+Here are the key taxes in Maryland:
+- **Maryland State Income Tax**: Maryland uses a **progressive tax rate** system with rates ranging from **2% to 5.75%**, based on your taxable income.
+- **Local Taxes**: Many counties and Baltimore City impose additional local income taxes. These rates range from **2.25% to 3.2%**, depending on where you live or work.
+- **Federal Income Tax**: Calculated based on the IRS tax brackets, which depend on your income and filing status.
+- **Social Security Tax**: The rate is **6.2%** on wages up to $160,200 (for 2025).
+- **Medicare Tax**: The rate is **1.45%**, with an additional **0.9%** surtax for high earners (income above $200,000 for single filers).
+- **Other Deductions**: Employer-provided benefits like **health insurance** or **retirement plan contributions** (e.g., 401(k)) can also affect your taxable income.
+
+### **Tax Calculation Method**
+
+Our paycheck calculator uses the following method to estimate your after-tax income:
+- **Maryland State Income Tax**: A **progressive tax** is applied based on your income, ranging from **2% to 5.75%**.
+- **Local Taxes**: If you live or work in a jurisdiction with local taxes, the corresponding rate (typically between **2.25% and 3.2%**) is applied.
+- **Federal Income Tax**: Calculated according to IRS tax brackets, based on your income and filing status.
+- **Social Security and Medicare**: These federal deductions are automatically applied.
+- **Employer Deductions**: Other deductions, such as contributions to a **401(k)** or **health insurance premiums**, will be factored in.
+
+---
+
+## Maryland State Income Tax Rates
+
+Maryland uses a **progressive state income tax system**, which means that the more you earn, the higher your tax rate. The income tax rates in Maryland are as follows:
+
+- **2%** on income up to $1,000 for single filers, $1,500 for married couples filing jointly.
+- **3%** on income between $1,001 and $2,000 for single filers, $1,501 and $3,000 for married couples filing jointly.
+- **4%** on income between $2,001 and $3,000 for single filers, $3,001 and $4,000 for married couples filing jointly.
+- **4.75%** on income between $3,001 and $100,000 for single filers, $4,001 and $150,000 for married couples filing jointly.
+- **5%** on income between $100,001 and $125,000 for single filers, $150,001 and $175,000 for married couples filing jointly.
+- **5.25%** on income between $125,001 and $150,000 for single filers, $175,001 and $200,000 for married couples filing jointly.
+- **5.75%** on income over $150,000 for single filers, $200,000 for married couples filing jointly.
+
+### **Local Income Taxes in Maryland**
+
+In addition to the state income tax, many counties and Baltimore City impose local income taxes. These taxes range from **2.25% to 3.2%** depending on where you live. Local taxes are calculated on top of the state income tax and are an important factor in determining your total tax liability.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### **1. What is Maryland's state income tax rate?**
+
+Maryland has a **progressive income tax rate**, ranging from **2% to 5.75%**, depending on your income level.
+
+### **2. Do I need to pay local taxes in Maryland?**
+
+Yes, many counties and Baltimore City impose **local income taxes** that range from **2.25% to 3.2%**. These are added to the state income tax to calculate your total tax burden.
+
+### **3. How are Maryland’s income tax brackets determined?**
+
+Maryland’s **progressive tax system** applies different tax rates to different income levels, ranging from **2%** on the lowest income to **5.75%** for income above $150,000 for single filers.
+
+### **4. Does Maryland have any deductions for retirement contributions?**
+
+Yes, if your employer offers **retirement plans** like a **401(k)**, contributions to these plans can reduce your taxable income and lower your overall tax burden.
+
+---
+
+## SEO-Optimized Section
+
+### **Maryland Paycheck Calculator Features**
+
+Our **Maryland paycheck calculator** gives you a comprehensive understanding of how state, local, and federal taxes impact your paycheck. By entering your income and relevant deductions, you can estimate your after-tax income, ensuring that you understand how taxes affect your take-home pay.
+
+### **Keywords and Related Terms**
+
+For SEO optimization, we’ve included the following relevant keywords throughout the page:
+- Maryland paycheck calculator
+- Maryland state income tax rates
+- Local income tax Maryland
+- Federal income tax calculator Maryland
+- Social Security and Medicare taxes Maryland
+
+If you want to learn more about how to optimize your paycheck or reduce your taxable income, explore our related resources.
+
+---
+
+## Conclusion & Call to Action
+
+Start using the **Maryland Paycheck Calculator** today to estimate your after-tax income and make smarter financial decisions. Whether you’re adjusting to a new job or reviewing your current tax situation, our tool can help you navigate the complexities of Maryland’s state and local taxes. **Get started now and take control of your finances!**
