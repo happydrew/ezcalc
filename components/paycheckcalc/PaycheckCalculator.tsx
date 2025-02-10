@@ -376,7 +376,7 @@ export function PaycheckCalculator({
                     />
                   ))}
                 </Pie>
-                <Tooltip formatter={(value) => `$${value.toFixed(2)}`} />
+                <Tooltip formatter={(value) => `$${value}`} />
                 <Legend wrapperStyle={{ fontSize: '0.75rem' }} />
               </PieChart>
             </div>
