@@ -1,7 +1,7 @@
 import { getPagesUnderRoute } from "nextra/context"
 import { buildDynamicMeta } from "nextra/remote"
 
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 export async function getStaticProps({ params }) {
   const { __nextra_pageMap } = await buildDynamicMeta()
