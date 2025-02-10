@@ -41,21 +41,21 @@ export default {
     type: 'page',
     title: 'Documentation'
   },
-  tags: {
-    display: "children",
-    theme: {
-      layout: "raw",
-    },
-  },
-  blog: {
-    type: "page",
-    title: "Blog",
-    theme: {
-      layout: "raw",
-      typesetting: "article",
-      timestamp: false,
-    }
-  },
+  // tags: {
+  //   display: "children",
+  //   theme: {
+  //     layout: "raw",
+  //   },
+  // },
+  // blog: {
+  //   type: "page",
+  //   title: "Blog",
+  //   theme: {
+  //     layout: "raw",
+  //     typesetting: "article",
+  //     timestamp: false,
+  //   }
+  // },
   concat: {
     type: 'page',
     title: 'Concat',
