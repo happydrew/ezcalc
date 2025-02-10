@@ -1,0 +1,15 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 100 100"
+  width="200"
+  height="200"
+>
+  <!-- YouTube play button -->
+  <rect x="5" y="25" width="60" height="50" rx="10" fill="#FF0000" />
+  <polygon points="30,35 30,65 55,50" fill="#FFFFFF" />
+
+  <!-- MP3 sound wave -->
+  <rect x="70" y="35" width="5" height="30" rx="2" fill="#FFFFFF" />
+  <rect x="80" y="30" width="5" height="40" rx="2" fill="#FFFFFF" />
+  <rect x="90" y="40" width="5" height="20" rx="2" fill="#FFFFFF" />
+</svg>
