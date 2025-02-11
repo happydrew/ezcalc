@@ -214,7 +214,7 @@ const config: DocsThemeConfig = {
         <meta name="twitter:site:domain" content="nextra.site" />
         <meta name="twitter:url" content="https://nextra.site" /> */}
         <meta name="apple-mobile-web-app-title" content="EzCalc" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        {/* <link rel="icon" href="/favicon.svg" type="image/svg+xml" /> */}
         <link rel="icon" href="/favicon.png" type="image/png" />
         <link
           rel="icon"
