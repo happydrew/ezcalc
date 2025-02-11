@@ -3,9 +3,10 @@ export default {
     type: 'page',
     title: 'Home',
     //display: 'hidden',
-    theme: {
-      layout: 'raw'
-    }
+    layout: 'raw'
+    // theme: {
+    //   layout: 'raw'
+    // }
   },
   "paycheck-calculator": {
     type: 'menu',
