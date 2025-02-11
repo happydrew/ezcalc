@@ -1,0 +1,136 @@
+---
+title: Missouri Paycheck Calculator
+description: Use our Missouri paycheck calculator to estimate your after-tax income. Learn about Missouri state taxes, federal deductions, and how they impact your take-home pay.
+date: 2025-02-09
+---
+
+import { PaycheckCalculator } from '@components/paycheckcalc/PaycheckCalculator';
+
+<h1 className="text-2xl md:text-3xl font-bold text-gray-800 mb- mt-3 text-center">Missouri Paycheck Calculator</h1>
+
+<div className="my-3 prose prose-blue max-w-none bg-gray-100 px-4 py-2 rounded-lg">
+    <p className="text-gray-600">
+Welcome to our **Missouri Paycheck Calculator**! This tool helps you calculate your after-tax income in Missouri, factoring in state taxes, federal deductions, and other relevant contributions. Missouri has a **state income tax** that ranges from **1.5% to 5.4%**, and understanding these deductions will help you make better financial decisions. Enter your salary details, and we’ll calculate your take-home pay after taxes.
+    </p>
+</div>
+
+<PaycheckCalculator 
+  stateTaxType="progressive" 
+  stateTaxBracket={[
+    { payBracket: 1073, rate: 0.015 },
+    { payBracket: 2146, rate: 0.02 },
+    { payBracket: 3219, rate: 0.025 },
+    { payBracket: 4292, rate: 0.03 },
+    { payBracket: 5365, rate: 0.035 },
+    { payBracket: 6437, rate: 0.04 },
+    { payBracket: 7509, rate: 0.045 },
+    { payBracket: 8581, rate: 0.05 },
+    { payBracket: Infinity, rate: 0.054 }]}
+/>
+
+---
+
+## Tool Overview
+
+### **How to Use the Missouri Paycheck Calculator**
+
+Our paycheck calculator is simple to use. Just enter your **annual salary** or **hourly wage**, select your **deductions** (federal income tax, Missouri state tax, Social Security, Medicare, etc.), and provide other relevant personal details like your filing status and exemptions. The tool will automatically calculate your after-tax income.
+
+### **Why Use This Tool?**
+
+By using this calculator, you can:
+- Accurately estimate your after-tax income in Missouri.
+- Understand how Missouri’s state tax, federal tax, and other deductions affect your paycheck.
+- Plan your budget more effectively by seeing your actual take-home pay.
+
+---
+
+## Related Tax Information
+
+### **Overview of Missouri Taxes**
+
+Missouri’s **state income tax** is **progressive**, with tax rates ranging from **1.5% to 5.4%** based on your income. In addition to state taxes, you will also have **federal income tax** and **Social Security** deductions taken out of your paycheck. Here are the key taxes to consider when calculating your take-home pay:
+
+- **Missouri State Income Tax**: Missouri’s **state income tax** is progressive, ranging from **1.5% to 5.4%**, depending on your income level.
+- **Federal Income Tax**: This tax is calculated based on your income and filing status, using the IRS tax brackets.
+- **Social Security Tax**: The rate is **6.2%** on wages up to $160,200 (for 2025).
+- **Medicare Tax**: The rate is **1.45%**, with an additional **0.9%** surtax for income over $200,000 (for single filers).
+- **Other Deductions**: Your employer may also deduct other items such as health insurance premiums, retirement contributions, or other employee benefits.
+
+### **Tax Calculation Method**
+
+Our paycheck calculator automatically considers these key deductions:
+- **Missouri State Income Tax**: The tax rates vary based on your income.
+- **Federal Income Tax**: Calculated using IRS tax brackets.
+- **Social Security and Medicare**: These federal taxes are deducted automatically.
+- **Employer Deductions**: If applicable, we include deductions like health insurance and retirement contributions.
+
+---
+
+## Missouri Income Tax Rates
+
+Missouri has a **progressive income tax system**. Here’s a breakdown of the **2025** state income tax brackets:
+
+#### **2025 Missouri State Income Tax Brackets**
+
+| Taxable Income           | Tax Rate     |
+|--------------------------|--------------|
+| Up to $1,053             | 1.5%         |
+| $1,054 to $2,106         | 2%           |
+| $2,107 to $3,159         | 2.5%         |
+| $3,160 to $4,212         | 3%           |
+| $4,213 to $5,265         | 3.5%         |
+| $5,266 to $6,318         | 4%           |
+| $6,319 to $7,370         | 4.5%         |
+| Over $7,370              | 5.4%         |
+
+- **Note**: These tax brackets apply to **individual filers**. If you file jointly, the brackets are adjusted accordingly.
+
+### **How Missouri’s Progressive Tax System Works**
+
+Missouri’s state income tax is progressive, meaning that the more you earn, the higher the tax rate on your income. For example, the first $1,053 of your income is taxed at **1.5%**, while income over $7,370 is taxed at **5.4%**.
+
+---
+
+## Frequently Asked Questions (FAQ)
+
+### **1. What is Missouri’s state income tax rate?**
+
+Missouri has a **progressive income tax system**. The rates range from **1.5% to 5.4%** based on your taxable income.
+
+### **2. How does Missouri’s progressive income tax work?**
+
+Missouri’s income tax system is progressive, meaning that higher earners pay a higher percentage of their income in taxes. The tax rates range from **1.5% to 5.4%**.
+
+### **3. Does Missouri have local taxes?**
+
+In addition to state taxes, some local jurisdictions in Missouri may levy **local taxes**. However, local income taxes are relatively rare compared to other states, and many residents only pay state-level taxes.
+
+### **4. How do I calculate my after-tax income in Missouri?**
+
+You can use our paycheck calculator to input your income and deductions. The tool will calculate your after-tax income based on Missouri’s state tax rates, federal taxes, and other applicable deductions.
+
+---
+
+## SEO-Optimized Section
+
+### **Missouri Paycheck Calculator Features**
+
+Our **Missouri paycheck calculator** helps you estimate your after-tax income by factoring in **Missouri state income tax**, **federal taxes**, and other mandatory deductions. Simply enter your salary and personal details, and the tool will provide an accurate estimate of your take-home pay.
+
+### **Keywords and Related Terms**
+
+For SEO optimization, we’ve included these relevant keywords:
+- Missouri paycheck calculator
+- Missouri state income tax
+- Missouri income tax calculator
+- Missouri state tax brackets
+- After-tax income Missouri
+
+Feel free to check out our other financial resources to better understand tax planning, savings, and income management.
+
+---
+
+## Conclusion & Call to Action
+
+Start using the **Missouri Paycheck Calculator** now to estimate your after-tax income and plan your budget effectively. By understanding how Missouri’s taxes impact your paycheck, you can make better financial decisions. **Get started today and optimize your finances!**

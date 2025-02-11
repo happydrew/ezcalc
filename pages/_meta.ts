@@ -35,6 +35,30 @@ export default {
       "washington-paycheck-calculator": {
         title: 'Washington Paycheck Calculator',
         href: '/paycheck-calculator/washington-paycheck-calculator'
+      },
+      "indiana-paycheck-calculator": {
+        title: 'Indiana Paycheck Calculator',
+        href: '/paycheck-calculator/indiana-paycheck-calculator'
+      },
+      "missouri-paycheck-calculator": {
+        title: 'Missouri Paycheck Calculator',
+        href: '/paycheck-calculator/missouri-paycheck-calculator'
+      },
+      "oregon-paycheck-calculator": {
+        title: 'Oregon Paycheck Calculator',
+        href: '/paycheck-calculator/oregon-paycheck-calculator'
+      },
+      "tennessee-paycheck-calculator": {
+        title: 'Tennessee Paycheck Calculator',
+        href: '/paycheck-calculator/tennessee-paycheck-calculator'
+      },
+      "virginia-paycheck-calculator": {
+        title: 'Virginia Paycheck Calculator',
+        href: '/paycheck-calculator/virginia-paycheck-calculator'
+      },
+      "wisconsin-paycheck-calculator": {
+        title: 'Wisconsin Paycheck Calculator',
+        href: '/paycheck-calculator/wisconsin-paycheck-calculator'
       }
     }
   },

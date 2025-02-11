@@ -133,12 +133,24 @@ export function PaycheckCalculator({
     if (stateTaxType === "fixed") {
       return stateTaxRate;
     } else {
-      const bracket = stateTaxBracket.slice(0, stateTaxBracket.length - 1).find(b => annualSalary <= b.payBracket);
-      if (bracket) {
-        return bracket.rate;
-      } else {
-        return stateTaxBracket[stateTaxBracket.length - 1].rate;
+      let totalTax = 0;
+      for (let i = 0; i < stateTaxBracket.length; i++) {
+        if (annualSalary <= stateTaxBracket[i].payBracket) {
+          if (i === 0) {
+            totalTax = annualSalary * stateTaxBracket[0].rate;
+          } else {
+            totalTax += (annualSalary - stateTaxBracket[i - 1].payBracket) * stateTaxBracket[i].rate
+          }
+          break;
+        } else {
+          if (i === 0) {
+            totalTax = stateTaxBracket[0].payBracket * stateTaxBracket[0].rate;
+          } else {
+            totalTax += (stateTaxBracket[i].payBracket - stateTaxBracket[i - 1].payBracket) * stateTaxBracket[i].rate;
+          }
+        }
       }
+      return totalTax / annualSalary;
     }
   }
 
